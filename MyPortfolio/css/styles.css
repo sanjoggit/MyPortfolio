@@ -1,0 +1,272 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+body{
+    overflow-x: hidden;
+    font-family: 'Open Sans', sans-serif;
+    text-rendering: optimizeLegibility !important;
+    -webkit-font-smoothing: antialiased !important;
+}
+
+li{
+    list-style: none;
+    display: inline-block;
+}
+
+a{
+    text-decoration: none;
+    transition: all 500ms ease-in-out;
+}
+
+a:hover, a:active{
+    text-decoration: none;
+}
+
+h1, h2, h4{
+    font-family: 'PT Sans Narrow', Arial, sans-serif;
+    text-transform: uppercase;
+    font-weight: 700;
+}
+
+p{
+    font-size: 15px;
+    line-height: 21px;
+}
+
+.btn{
+    transition: all 300ms ease-in-out;
+    font-weight: 500 !important;
+    text-transform: uppercase;
+}
+
+.btn:hover{
+    background-color: #ededed !important;
+    color: #3c3c3c !important;
+    border: 1px solid #fff !important;
+}
+
+/*FONTS*/
+@font-face{
+    font-family: 'the bully';
+    src: url('../fonts/The Bully_PersonalUseOnly.ttf');
+}
+@font-face{
+    font-family: 'mousee';
+    src: url('../fonts/Mousse-Regular.otf');
+}
+p{
+    font-family: 'mousee';
+    font-size: 20px;
+}
+/*NAVIGATION*/
+
+.navbar{
+    background-color: #273746;
+}
+.navbar .navbar-brand{
+    font-family: "the bully";
+    font-size: 45px;
+}
+.navbar a{
+    color: #fff !important;
+    opacity: 0.8;
+}
+.navbar a:hover{
+    opacity: 1;
+}
+
+/*HOME*/
+.home{
+    height: 100vh;
+    width: 100%;
+    margin-top: 30px;
+    background-image: url("../images/body_background.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    background-attachment: fixed;
+}
+.home .home-content{
+   text-align: center;
+    margin-top: 300px;
+}
+.home-content h1{
+    color: #ECF0F1;
+    margin-bottom: 30px;
+}
+.home-content h3{
+    color: #ECF0F1;
+}
+.home-content .btn{
+    border-radius: 30px;
+    margin-right: 20px;
+    font-size: 15px;
+}
+.home-content .btn text{
+   font-size: 10px;
+}
+.home-content .btn:focus{
+    outline: none;
+}
+
+q{
+    font-size: 20px;
+}
+
+/*ABOUT*/
+
+.about{
+    padding: 80px 0 80px;
+    text-align: center;
+}
+.about h2{
+    margin-bottom: 20px;
+}
+.about .row{
+    margin-top: 80px;
+}
+.about .text-muted{
+    padding: 10px 0 40px;
+    font-size: 15px;
+}
+.about img{
+    height: 90%;
+    width: 90%;
+}
+
+/*Education & Internship*/
+
+.education{
+    padding: 80px 0 80px;
+    text-align: center;
+    background-image: url("../images/keyboard.jpeg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-attachment: fixed;
+}
+.education .below-h2 {
+    padding-bottom: 40px;
+}
+#education .container{
+    position: relative;
+    background: rgba(10, 54, 54, 0.6);
+    color: #FDFEFE;
+
+}
+
+.education .fa-graduation-cap{
+    height: 120px;
+    width: 120px;
+    color: #0C2E36;
+    border-radius: 70%;
+    font-size: 50px;
+    padding: 35px 0 30px;
+    background-color: #F4F6F7 ;
+    margin-bottom: 20px;
+}
+.education hr{
+    position: absolute;
+    width: 400px;
+    z-index: -2;
+    margin-top: 60px;
+}
+.internship{
+    padding: 40px;
+}
+.internship h2{
+    margin-bottom: 30px;
+}
+.internship li{
+    font-family: 'mousee';
+}
+
+/*SKILLS*/
+.skills{
+    padding: 80px 0 80px;
+    text-align: center;
+    background-image: url("../images/skills_background.jpeg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+}
+.skills h1{
+    color: #fff;
+}
+.skills p{
+    margin-bottom: 40px;
+    color: #E5E7E9;
+}
+
+.skills .btn{
+    border-radius: 20px;
+    margin: 0 20px 40px 0;
+    -webkit-box-shadow: -7px 7px 46px -1px rgba(0,0,0,0.86);
+    -moz-box-shadow: -7px 7px 46px -1px rgba(0,0,0,0.86);
+    box-shadow: -7px 7px 46px -1px rgba(0,0,0,0.86);
+}
+
+/*CONTACT*/
+.contact{
+    padding: 80px 0 80px;
+    text-align: center;
+}
+.contact p{
+    margin-bottom: 40px;
+}
+.contact .input-group{
+    padding-bottom: 20px;
+}
+.contact .btn{
+    width: 100%;
+}
+
+.contact .btn:hover{
+    background-color: #186A3B !important;
+    color: #fff !important;
+}
+.contact li{
+    display: block;
+    text-align: left;
+}
+.contact .contact-right{
+    height: 45px;
+    width: 45px;
+    border-radius: 70%;
+    border: 1px solid black;
+    font-size: 25px;
+    padding: 10px 12px;
+    margin-bottom: 5px;
+}
+.contact li span{
+    font-size: 15px;
+}
+
+/*FOOTER*/
+.footer{
+    padding: 80px 0 80px;
+    background: #222222;
+    color: #cccccc;
+}
+.footer .social{
+    height: 35px;
+    width: 35px;
+    border: 1px solid #cccccc;
+    text-align: center;
+    padding: 5px;
+    font-size: 20px;
+
+}
+.footer .fa-facebook:hover{
+    cursor: pointer;
+    color:  #3b5998;
+}
+.footer .fa-linkedin:hover{
+    cursor: pointer;
+    color: #0077B5;
+}
+.footer .fa-google-plus:hover{
+    cursor: pointer;
+    color: #d34836;
+}
